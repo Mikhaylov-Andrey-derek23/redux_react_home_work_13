@@ -56,19 +56,7 @@ class App extends React.Component{
         console.log(this.props);
         return(
             <div>
-                <form onSubmit={(e)=>this.handlerSubmit(e)}>
-                    <input type="text" name="course"/>
-                    <button type="submit">Кликни на меня</button>
-                </form>
-                <form onSubmit={(e)=>this.handlerTeacherSubmit(e)}>
-                    <input type="text" name="teacher"/>
-                    <button type="submit">Добавить преподавателя</button>
-                </form>
-                {/* <ol>
-                    {this.props.courses.map(val=>
-                        <li onClick={(e)=>this.liClick(e)}>{val.name}</li>
-                    )}
-                </ol> */}
+                
                 <ol>
                     {this.props.courses.map(val=>
                             <li>
