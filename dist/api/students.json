@@ -1,0 +1,20 @@
+{
+    "students" : [
+        {
+            "name" : "Иван Иванов",
+            "courseId" : [1],
+            "img" : "/img/1.jpg"
+        },
+        {
+            "name" : "Максим Максимов",
+            "courseId" : [2],
+            "img" : "/img/2.jpg"
+        },
+        {
+            "name" : "Петр Петрович",
+            "courseId" : [1, 2],
+            "img" : "/img/3.jpg"
+        }
+    ]
+  
+}

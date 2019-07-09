@@ -1,0 +1,28 @@
+{
+    "lessons" : [
+        {
+            "id" : 10,
+            "num" : 1,
+            "topic": "about",
+            "courseId" : 1
+        },
+        {
+            "id" : 11,
+            "num" : 1,
+            "topic": "CSS",
+            "courseId" : 1
+        },
+        {
+            "id" : 20,
+            "num" : 1,
+            "topic": "React about",
+            "courseId" : 2
+        },
+        {
+            "id" : 22,
+            "num" : 1,
+            "topic": "React redux",
+            "courseId" : 2
+        }
+    ]
+}
